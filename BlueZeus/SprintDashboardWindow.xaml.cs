@@ -10,19 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace BlueZeus
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for DashboardWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SprintDashboardWindow : Window
     {
-        public MainWindow()
+        public SprintDashboardWindow()
         {
             InitializeComponent();
+        }
+
+        private void tabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
